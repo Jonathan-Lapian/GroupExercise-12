@@ -1,11 +1,12 @@
+import Footer from "./component/footer";
+
 const App = () => {
   return (
     <div>
-      <h1>App.js</h1>
-      <Hello />
+      <h1>App</h1>
+      <Footer />
     </div>
   );
 };
-
 
 export default App;
