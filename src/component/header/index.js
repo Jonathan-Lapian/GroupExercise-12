@@ -1,4 +1,16 @@
 import Logo from "./logo";
-import { Gen1, Gen2, Gen3, Gen4 } from "./generation";
+import Generation from "./generation";
+import React from "react";
 
-export { Logo, Gen1, Gen2, Gen3, Gen4 };
+const Header = () => {
+  return (
+    <div>
+      <p>
+        <Logo />
+        <Generation gen="Gen-1/Gen-2/Gen-3/Gen-4" />
+      </p>
+    </div>
+  );
+};
+
+export default Header;

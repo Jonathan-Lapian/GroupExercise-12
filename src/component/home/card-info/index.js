@@ -1,6 +1,5 @@
 import Evolution from "./evolution";
 import Logo from "./logo";
-import typeEffect from "./type-effect";
+import TypeEffect from "./type-effect";
 
-
-export { Evolution, Logo, typeEffect };
+export { Evolution, Logo, TypeEffect };

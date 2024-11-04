@@ -1,6 +1,6 @@
 import React from "react";
 
-const typeEffect = () => {
+const TypeEffect = () => {
   return (
     <div>
       <p>type-effect</p>
@@ -8,4 +8,4 @@ const typeEffect = () => {
   );
 };
 
-export default typeEffect;
+export default TypeEffect;
