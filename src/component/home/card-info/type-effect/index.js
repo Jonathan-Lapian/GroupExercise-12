@@ -3,7 +3,7 @@ import React from "react";
 const TypeEffect = () => {
   return (
     <div>
-      <p>type-effect</p>
+      <p>Type-Effect</p>
     </div>
   );
 };

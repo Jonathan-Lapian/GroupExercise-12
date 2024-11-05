@@ -3,7 +3,7 @@ import React from "react";
 const Evolution = () => {
   return (
     <div>
-      <p>evolution</p>
+      <p>Evolution</p>
     </div>
   );
 };
