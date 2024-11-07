@@ -1,5 +1,10 @@
 # Getting Started with Create React App
 
+useEffect(() => {
+axios
+.get("https://jsonplaceholder.typicode.com/users")
+.then((res) => setUsers(res.data));
+}, []);
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

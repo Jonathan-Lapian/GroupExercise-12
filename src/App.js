@@ -1,16 +1,20 @@
+import Clients from "./component/clients";
+import Features from "./component/features";
 import Footer from "./component/footer";
 import Header from "./component/header";
-import Generation from "./component/header/generation";
-import { Search, Evolution, Logo, TypeEffect } from "./component/home";
+import Hero from "./component/hero";
+import Pricing from "./component/pricing";
+
 const App = () => {
   return (
-    <div>
-      <h1>App</h1>
+    <div className="body-wrap">
       <Header />
-      <Search />
-      <Evolution />
-      <Logo />
-      <TypeEffect />
+      <main className="site-content">
+        <Hero />
+        <Clients />
+        <Features />
+        <Pricing />
+      </main>
       <Footer />
     </div>
   );
